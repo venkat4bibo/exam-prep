@@ -1,0 +1,48 @@
+{
+  "subjects": [
+    {
+      "name": "General Knowledge",
+      "icon": "public",
+      "questions": [
+        {"q": "What is the capital of India?", "options": ["Mumbai", "New Delhi", "Kolkata", "Chennai"], "answer": 1, "explanation": "New Delhi is the capital of India."},
+        {"q": "Who wrote the Indian national anthem?", "options": ["Bankim Chandra Chatterjee", "Mahatma Gandhi", "Rabindranath Tagore", "Sarojini Naidu"], "answer": 2, "explanation": "Jana Gana Mana was written by Rabindranath Tagore."},
+        {"q": "Which is the largest planet in our solar system?", "options": ["Earth", "Saturn", "Jupiter", "Neptune"], "answer": 2, "explanation": "Jupiter is the largest planet."},
+        {"q": "In which year did India become a republic?", "options": ["1947", "1950", "1952", "1949"], "answer": 1, "explanation": "The Constitution came into effect on 26 January 1950."},
+        {"q": "Who was the first Prime Minister of India?", "options": ["Sardar Patel", "Lal Bahadur Shastri", "Jawaharlal Nehru", "Rajendra Prasad"], "answer": 2, "explanation": "Jawaharlal Nehru was India's first Prime Minister."},
+        {"q": "The river Ganga finally flows into which water body?", "options": ["Arabian Sea", "Bay of Bengal", "Indian Ocean", "Gulf of Kutch"], "answer": 1, "explanation": "The Ganga empties into the Bay of Bengal."},
+        {"q": "What is the chemical symbol for gold?", "options": ["Ag", "Gd", "Go", "Au"], "answer": 3, "explanation": "Au comes from the Latin word aurum."},
+        {"q": "How many states are there in India?", "options": ["26", "28", "29", "30"], "answer": 1, "explanation": "India has 28 states and 8 Union Territories."}
+      ],
+      "flashcards": [
+        {"front": "Capital of India", "back": "New Delhi"},
+        {"front": "Chemical symbol of gold", "back": "Au"},
+        {"front": "Largest planet", "back": "Jupiter"},
+        {"front": "India became a republic", "back": "26 January 1950"},
+        {"front": "First Prime Minister of India", "back": "Jawaharlal Nehru"},
+        {"front": "Ganga drains into", "back": "Bay of Bengal"}
+      ]
+    },
+    {
+      "name": "Maths & Reasoning",
+      "icon": "calculate",
+      "questions": [
+        {"q": "What is 15% of 200?", "options": ["20", "25", "30", "35"], "answer": 2, "explanation": "200 x 15/100 = 30."},
+        {"q": "Next number in the series: 2, 4, 8, 16, ?", "options": ["24", "30", "32", "36"], "answer": 2, "explanation": "Each number doubles, so 16 x 2 = 32."},
+        {"q": "What is the square root of 144?", "options": ["10", "12", "14", "16"], "answer": 1, "explanation": "12 x 12 = 144."},
+        {"q": "What is 7 x 8?", "options": ["54", "56", "58", "64"], "answer": 1, "explanation": "7 x 8 = 56."},
+        {"q": "If x + 5 = 12, what is x?", "options": ["5", "6", "7", "8"], "answer": 2, "explanation": "x = 12 - 5 = 7."},
+        {"q": "What is the average of 10, 20 and 30?", "options": ["15", "20", "25", "30"], "answer": 1, "explanation": "(10 + 20 + 30) / 3 = 20."},
+        {"q": "What is 1/2 + 1/4?", "options": ["1/4", "2/6", "3/4", "1"], "answer": 2, "explanation": "2/4 + 1/4 = 3/4."},
+        {"q": "What is the perimeter of a square with side 5 cm?", "options": ["10 cm", "15 cm", "20 cm", "25 cm"], "answer": 2, "explanation": "Perimeter = 4 x 5 = 20 cm."}
+      ],
+      "flashcards": [
+        {"front": "Area of a rectangle", "back": "length x breadth"},
+        {"front": "Perimeter of a square", "back": "4 x side"},
+        {"front": "Average formula", "back": "Sum of values / number of values"},
+        {"front": "Percentage formula", "back": "(Part / Whole) x 100"},
+        {"front": "Area of a circle", "back": "pi x r x r"},
+        {"front": "Simple interest", "back": "(P x R x T) / 100"}
+      ]
+    }
+  ]
+}
