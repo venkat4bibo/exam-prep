@@ -1,1 +1,30 @@
+name: Build APK
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: Generate Android project files
+        run: |
+          cp lib/main.dart /tmp/main.dart
+          flutter create --platforms=android --project-name exam_prep --org com.examprep .
+          cp /tmp/main.dart lib/main.dart
+          rm -rf test
+      - run: flutter pub get
+      - run: flutter build apk --release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exam-prep-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
 
